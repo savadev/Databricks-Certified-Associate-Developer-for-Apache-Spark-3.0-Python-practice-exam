@@ -43,7 +43,7 @@ function checkAnswer(){
 }
 
 function nextQuestion(){
-
+    console.log("nextQuestion call")
     // Do it only if we haven't reach the last question
     if(numQuestion != (questions.length - 1)){
         // Answers box cleaning
